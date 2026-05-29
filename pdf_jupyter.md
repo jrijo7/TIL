@@ -39,13 +39,13 @@ Sem o Pandoc, o Jupyter não consegue sequer iniciar a conversão do arquivo.
 
 Certifique-se de que as ferramentas de exportação do seu ambiente Python não estão defasadas. Abra o seu **Prompt de Comando (CMD)** ou Terminal do Anaconda e execute:
 
-# Atualizar o gerenciador de pacotes do Python
+#### Atualizar o gerenciador de pacotes do Python
 python -m pip install --upgrade pip
 
-# Instalar/Atualizar o ecossistema Jupyter e ferramentas de PDF
+#### Instalar/Atualizar o ecossistema Jupyter e ferramentas de PDF
 pip install --upgrade jupyter nbconvert qtpdf
 
-Passo 4: Reiniciar o Terminal (Aplicar Variáveis de Ambiente)
+### Passo 4: Reiniciar o Terminal (Aplicar Variáveis de Ambiente)
 Se você acabou de instalar o MiKTeX e o Pandoc:
 
 Feche completamente todas as janelas abertas do Prompt de Comando, Git Bash ou servidores ativos do Jupyter Notebook.
